@@ -1,0 +1,91 @@
+*{
+    font-family: Montserrat; 
+}
+body{
+    background-color: #c7c7c7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem 2.5rem 4rem 8rem;
+}
+img{
+    width: 2rem;
+}
+h1{
+    font-size: 2.5rem;
+    color: rgb(123, 183, 34);
+    font-style: italic;
+    margin-top: 3rem;  
+    text-align: left;  
+}
+.abaEsquerda {
+    width: 45%;
+    height: auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    box-sizing: border-box;
+}
+.abaEsquerda #fotoPerfil{
+    width: 20rem;
+    margin: 0 10rem 0 11rem ;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+}
+.abaEsquerda #nome{
+    color: white;
+    font-size: 3rem;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.inicio{
+    align-self: center;
+}
+.descricao p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-right: 3rem;
+    word-wrap: break-word;
+}
+.descricao h1{
+    font-weight: 300;
+}
+.educacao h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.educacao h3{
+    font-weight: 300;
+}
+.idiomas h2 {
+    font-weight: 450;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.extras img{
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    background-color: white;
+    width: 2rem;
+    height: 100%;
+}
+.extras{
+   list-style-type: none;
+   padding-top: 1rem;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.item h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+}

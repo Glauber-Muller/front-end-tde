@@ -1,0 +1,66 @@
+@media ((min-width: 320px) and (max-width:465px)) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .abaEsquerda {
+        width: 22rem;
+        height: auto;
+        position: relative;
+        right: .5rem;
+        display: flex;
+    }
+
+    .abaEsquerda #fotoPerfil {
+        width: 15rem;
+    }
+
+    .abaEsquerda #nome {
+        font-size: 1.8rem;
+        word-wrap: break-word;
+        max-width: 18rem;
+    }
+
+    .descricao {
+        position: relative;
+        right: 2rem;
+    }
+
+    .descricao h1 {
+        font-size: 2.2rem;
+        margin-left: 1rem;
+    }
+
+    .descricao p {
+        text-align: center;
+        width: 18rem;
+    }
+
+    .extras {
+        gap: 1rem;
+        position: relative;
+        right: 4rem;
+    }
+
+    .extras h2 {
+        font-size: 1rem;
+    }
+
+    /* ABA DIEITA */
+    .abaDireita {
+        width: 22rem;
+        height: auto;
+        position: relative;
+        right: .5rem;
+        display: flex;
+    }
+
+    .habilidades {
+        margin-right: 1rem;
+    }
+    .habilidades h2{
+        margin-left: 1rem;
+    }
+}

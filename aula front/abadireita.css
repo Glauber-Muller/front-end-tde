@@ -1,0 +1,46 @@
+.abaDireita{
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2.78rem;
+    color: black;
+    box-sizing: border-box;
+}
+hr{
+    width: 30vw;
+    margin: 0 2rem 0 .5rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-top: 3rem;  
+    text-align: left;  
+}
+.experiencias h3{
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: underline 2px;
+}
+.experiencias h4{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.experiencias li{
+ font-weight: 400;
+ font-size: 1.5rem ;
+ margin: 1.5rem 0;
+}
+
+.habilidades{
+    padding: 2rem;
+}
+.habilidades li{
+    font-size: 1.5rem;
+}
+.habilidades h3{
+    font-size: 2.0rem;
+}
