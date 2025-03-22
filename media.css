@@ -1,16 +1,16 @@
-@media ((min-width: 320px) and (max-width:465px)) {
+@media ((min-width: 320px) and (max-width:678px)) {
     body {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
     .abaEsquerda {
-        width: 22rem;
+        width: 19rem;
         height: auto;
-        position: relative;
-        right: .5rem;
         display: flex;
+        align-items: center;
     }
 
     .abaEsquerda #fotoPerfil {
@@ -22,26 +22,12 @@
         word-wrap: break-word;
         max-width: 18rem;
     }
-
-    .descricao {
-        position: relative;
-        right: 2rem;
-    }
-
-    .descricao h1 {
-        font-size: 2.2rem;
-        margin-left: 1rem;
-    }
-
-    .descricao p {
+    .descricao p{
         text-align: center;
-        width: 18rem;
+        width: 100%;
     }
-
-    .extras {
-        gap: 1rem;
-        position: relative;
-        right: 4rem;
+    .extras{
+        margin-right: 2rem;
     }
 
     .extras h2 {
@@ -50,17 +36,48 @@
 
     /* ABA DIEITA */
     .abaDireita {
-        width: 22rem;
+        width: 19rem;
         height: auto;
-        position: relative;
-        right: .5rem;
         display: flex;
+        align-items: center;
     }
-
+    h2{
+        font-size: 2.3rem; 
+    }
     .habilidades {
         margin-right: 1rem;
     }
     .habilidades h2{
         margin-left: 1rem;
+    }
+}
+@media ((min-width: 678px) and (max-width:1024px)){
+    body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .abaEsquerda{
+        width: 42vw;
+    }
+    .abaEsquerda #fotoPerfil{
+        width: 15rem;
+    }
+    .abaEsquerda #nome {
+        font-size: 1.8rem;
+        word-wrap: break-word;
+        max-width: 18rem;
+    }
+    .descricao p{
+        text-align: center;
+        width: 100%;
+    }
+    .extras h2 {
+        font-size: 1rem;
+    }
+    .abaDireita{
+        width: 42vw;
+        margin-right: 2rem;
     }
 }
